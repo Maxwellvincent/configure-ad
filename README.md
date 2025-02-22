@@ -64,22 +64,33 @@ To ensure proper communication between the machines, we need to adjust network s
 <img src="https://i.imgur.com/ya3fmei.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<h3>Step 3</h3>
+<h3>Part 3 Configuring a Firewall</h3>
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To observe how firewall rules impact network communication, you will configure the Network Security Group (NSG) to block and then re-enable ICMP (ping) traffic between the Windows 10 and Ubuntu VMs.
+
+- Initiate a continuous ping:
+On the Windows 10 VM, start a non-stop ping to the Ubuntu VM.
+This will generate ICMP (ping) traffic, which can be observed in Wireshark and the command prompt.
+
+- Block ICMP traffic in the NSG:
+Open Azure Portal and navigate to the Network Security Group (NSG) assigned to the Ubuntu VM.
+Modify the Inbound Security Rules to deny ICMP traffic.
+
+- Observe the impact:
+Return to the Windows 10 VM and check the ping output—it should now show request timeouts.
+Open Wireshark and monitor the ICMP traffic; you should see the absence of ICMP replies.
+Re-enable ICMP traffic:
+
+Once observations are complete, stop the ping process on the Windows 10 VM.
 </p>
 <p>
 <img src="https://i.imgur.com/ZTjETwS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<br />
-
-<h3>Step 4</h3>
-
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
 <p>
 <img src="https://i.imgur.com/yXo62jx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+
+
 <br />
