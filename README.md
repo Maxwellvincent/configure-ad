@@ -32,7 +32,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 The Domain Controller (DC-1) is created in Azure, and Active Directory Domain Services (AD DS) is installed.
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Hclpbce.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
