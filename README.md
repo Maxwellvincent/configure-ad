@@ -34,6 +34,9 @@ The Domain Controller (DC-1) is created in Azure, and Active Directory Domain Se
 <p>
 <img src="https://i.imgur.com/Hclpbce.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+<img src="https://i.imgur.com/1de93Bm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
 <br />
 
@@ -42,7 +45,19 @@ The Domain Controller (DC-1) is created in Azure, and Active Directory Domain Se
 Remote Desktop is enabled for non-administrative users on Client-1. Domain users are granted RDP access, allowing them to log in remotely.
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/F18ebhQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/KQCwlJl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/tnHL5Bx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
