@@ -54,11 +54,9 @@ Remote Desktop is enabled for non-administrative users on Client-1. Domain users
 <img src="https://i.imgur.com/tnHL5Bx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QFjM9Qr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 
 <br />
 
@@ -68,5 +66,11 @@ A PowerShell script is executed on DC-1 to create multiple Active Directory user
 </p>
 <p>
 <img src="https://i.imgur.com/g2SoPyh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/yywM9Ls.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/QFjM9Qr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
